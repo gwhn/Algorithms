@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44653A3B-2389-49F0-B5AF-8EFC76224D49}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Algorithms.Code</RootNamespace>
+    <AssemblyName>Algorithms.Code</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Primes.cs" />
+    <Compile Include="ProjectEuler\AmicableNumbers.cs" />
+    <Compile Include="ProjectEuler\ChampernownesConstant.cs" />
+    <Compile Include="ProjectEuler\CircularPrimes.cs" />
+    <Compile Include="ProjectEuler\CodedTriangleNumbers.cs" />
+    <Compile Include="ProjectEuler\CoinSums.cs" />
+    <Compile Include="ProjectEuler\CountingSundays.cs" />
+    <Compile Include="ProjectEuler\DigitFactorials.cs" />
+    <Compile Include="ProjectEuler\DigitFifthPowers.cs" />
+    <Compile Include="ProjectEuler\DistinctPowers.cs" />
+    <Compile Include="ProjectEuler\DoubleBasePalindromes.cs" />
+    <Compile Include="ProjectEuler\FactorialDigitSum.cs" />
+    <Compile Include="ProjectEuler\HighlyDivisibleTriangularNumber.cs" />
+    <Compile Include="ProjectEuler\IntegerRightTriangles.cs" />
+    <Compile Include="ProjectEuler\LargestProductInAGrid.cs" />
+    <Compile Include="ProjectEuler\LargestProductInASeries.cs" />
+    <Compile Include="ProjectEuler\LargeSum.cs" />
+    <Compile Include="ProjectEuler\LatticePaths.cs" />
+    <Compile Include="ProjectEuler\LexicographicPermutations.cs" />
+    <Compile Include="ProjectEuler\LongestCollatzSequence.cs" />
+    <Compile Include="ProjectEuler\MaximumPathSum1.cs" />
+    <Compile Include="ProjectEuler\MaximumPathSum2.cs" />
+    <Compile Include="ProjectEuler\NamesScores.cs" />
+    <Compile Include="ProjectEuler\NonAbundantSums.cs" />
+    <Compile Include="ProjectEuler\NthPrime.cs" />
+    <Compile Include="ProjectEuler\NumberLetterCounts.cs" />
+    <Compile Include="ProjectEuler\NumberSpiralDiagonals.cs" />
+    <Compile Include="ProjectEuler\PowerDigitSum.cs" />
+    <Compile Include="ProjectEuler\QuadraticPrimes.cs" />
+    <Compile Include="ProjectEuler\ReciprocalCycles.cs" />
+    <Compile Include="ProjectEuler\SelfPowers.cs" />
+    <Compile Include="ProjectEuler\SpecialPythagoreanTriplet.cs" />
+    <Compile Include="ProjectEuler\SummationOfPrimes.cs" />
+    <Compile Include="ProjectEuler\SumSquareDifference.cs" />
+    <Compile Include="ProjectEuler\ThousandDigitFibonacciNumber.cs" />
+    <Compile Include="ProjectEuler\TriangularPentagonalAndHexagonal.cs" />
+    <Compile Include="ProjectEuler\TruncatablePrimes.cs" />
+    <Compile Include="TopCoder\AgeEncoding.cs" />
+    <Compile Include="TopCoder\Apothecary.cs" />
+    <Compile Include="TopCoder\ArcadeManao.cs" />
+    <Compile Include="TopCoder\Archery.cs" />
+    <Compile Include="TopCoder\BigBurger.cs" />
+    <Compile Include="TopCoder\BinaryCode.cs" />
+    <Compile Include="TopCoder\Birthday.cs" />
+    <Compile Include="TopCoder\Bonuses.cs" />
+    <Compile Include="TopCoder\Boxing.cs" />
+    <Compile Include="TopCoder\BridgeCrossing.cs" />
+    <Compile Include="TopCoder\CaesarCipher.cs" />
+    <Compile Include="TopCoder\Circuits.cs" />
+    <Compile Include="TopCoder\DancingFoxes.cs" />
+    <Compile Include="TopCoder\DotNotation.cs" />
+    <Compile Include="TopCoder\Dragons.cs" />
+    <Compile Include="TopCoder\Egalitarianism.cs" />
+    <Compile Include="ProjectEuler\EvenFibonacciNumbers.cs" />
+    <Compile Include="TopCoder\ExerciseMachine.cs" />
+    <Compile Include="TopCoder\FanFailure.cs" />
+    <Compile Include="TopCoder\Flags.cs" />
+    <Compile Include="TopCoder\Flush.cs" />
+    <Compile Include="TopCoder\FontSize.cs" />
+    <Compile Include="TopCoder\FormatAmt.cs" />
+    <Compile Include="TopCoder\GoldenChain.cs" />
+    <Compile Include="TopCoder\GooseTattarrattat.cs" />
+    <Compile Include="TopCoder\GroceryBagger.cs" />
+    <Compile Include="TopCoder\GUMIAndSongsDiv1.cs" />
+    <Compile Include="TopCoder\ImageDithering.cs" />
+    <Compile Include="TopCoder\InsertZ.cs" />
+    <Compile Include="TopCoder\InterestingDigits.cs" />
+    <Compile Include="TopCoder\JumpFurther.cs" />
+    <Compile Include="ProjectEuler\LargestPalindromeProduct.cs" />
+    <Compile Include="ProjectEuler\LargestPrimeFactor.cs" />
+    <Compile Include="TopCoder\LeaguePicks.cs" />
+    <Compile Include="TopCoder\Lottery.cs" />
+    <Compile Include="TopCoder\MagicWords.cs" />
+    <Compile Include="TopCoder\Marketing.cs" />
+    <Compile Include="TopCoder\Masterbrain.cs" />
+    <Compile Include="TopCoder\MergeSort.cs" />
+    <Compile Include="TopCoder\MessageMess.cs" />
+    <Compile Include="ProjectEuler\MultiplesOf3And5.cs" />
+    <Compile Include="TopCoder\Pathfinding.cs" />
+    <Compile Include="TopCoder\PeopleCircle.cs" />
+    <Compile Include="TopCoder\PiecewiseLinearFunction.cs" />
+    <Compile Include="TopCoder\PlayGame.cs" />
+    <Compile Include="TopCoder\PowerOutage.cs" />
+    <Compile Include="TopCoder\PrefixCode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TopCoder\RearrangeFurniture.cs" />
+    <Compile Include="TopCoder\RectangularGrid.cs" />
+    <Compile Include="TopCoder\RockStar.cs" />
+    <Compile Include="TopCoder\Roundabout.cs" />
+    <Compile Include="TopCoder\RoyalTreasurer.cs" />
+    <Compile Include="TopCoder\ScheduleStrength.cs" />
+    <Compile Include="TopCoder\SchoolAssembly.cs" />
+    <Compile Include="ProjectEuler\SmallestMultiple.cs" />
+    <Compile Include="TopCoder\TheLargestLuckyNumber.cs" />
+    <Compile Include="TopCoder\TheLuckyNumbers.cs" />
+    <Compile Include="TopCoder\TheSumOfLuckyNumbers.cs" />
+    <Compile Include="TopCoder\Time.cs" />
+    <Compile Include="TopCoder\TrafficCongestion.cs" />
+    <Compile Include="TopCoder\TravellingPurchasingMan.cs" />
+    <Compile Include="TopCoder\Trekking.cs" />
+    <Compile Include="TopCoder\VendingMachine.cs" />
+    <Compile Include="TopCoder\WidgetRepairs.cs" />
+    <Compile Include="TopCoder\YahtzeeScore.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
