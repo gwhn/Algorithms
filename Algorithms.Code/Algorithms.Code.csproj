@@ -81,6 +81,7 @@
     <Compile Include="ProjectEuler\ThousandDigitFibonacciNumber.cs" />
     <Compile Include="ProjectEuler\TriangularPentagonalAndHexagonal.cs" />
     <Compile Include="ProjectEuler\TruncatablePrimes.cs" />
+    <Compile Include="Searching\SquareRoot.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
@@ -153,9 +154,7 @@
     <Compile Include="TopCoder\WidgetRepairs.cs" />
     <Compile Include="TopCoder\YahtzeeScore.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Searching\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
