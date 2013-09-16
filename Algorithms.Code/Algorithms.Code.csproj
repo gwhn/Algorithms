@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FibonacciSequence.cs" />
+    <Compile Include="Palindrome.cs" />
     <Compile Include="Primes.cs" />
     <Compile Include="ProjectEuler\AmicableNumbers.cs" />
     <Compile Include="ProjectEuler\ChampernownesConstant.cs" />
