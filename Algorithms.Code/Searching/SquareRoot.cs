@@ -8,12 +8,12 @@ namespace Algorithms.Code.Searching
 {
     public static class SquareRoot
     {
-        public static double Calculate(double n)
+        public static double Calculate(double n, double p)
         {
             double low = 0.0D;
             double high = Math.Max(1, n);
             double mid;
-            while (low + 1e-3 < high)
+            while (low + p < high)
             {
                 mid = (low + high)/2.0D;
                 if (mid * mid < n)

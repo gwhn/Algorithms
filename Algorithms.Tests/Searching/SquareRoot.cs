@@ -14,16 +14,18 @@ namespace Algorithms.Tests.Searching
         public void Test1()
         {
             const double n = 81.0D;
-            var result = Code.Searching.SquareRoot.Calculate(n);
-            Assert.IsTrue(result > 9.0D - 1e-3 && result < 9.0D + 1e-3);
+            const double p = 1e-3;
+            var result = Code.Searching.SquareRoot.Calculate(n, p);
+            Assert.IsTrue(result > 9.0D - p && result < 9.0D + p);
         }
 
         [TestMethod]
         public void Test2()
         {
             const double n = 2.618D;
-            var result = Code.Searching.SquareRoot.Calculate(n);
-            Assert.IsTrue(result > 1.618D - 1e-3 && result < 1.618D + 1e-3);
+            const double p = 1e-3;
+            var result = Code.Searching.SquareRoot.Calculate(n, p);
+            Assert.IsTrue(result > 1.618D - p && result < 1.618D + p);
         }
     }
 }

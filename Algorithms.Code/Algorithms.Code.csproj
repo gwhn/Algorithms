@@ -81,6 +81,9 @@
     <Compile Include="ProjectEuler\ThousandDigitFibonacciNumber.cs" />
     <Compile Include="ProjectEuler\TriangularPentagonalAndHexagonal.cs" />
     <Compile Include="ProjectEuler\TruncatablePrimes.cs" />
+    <Compile Include="Searching\SearchSortedArrayForAIEqualsI.cs" />
+    <Compile Include="Searching\SearchSortedArrayForFirstElementLargerThanK.cs" />
+    <Compile Include="Searching\SearchSortedArrayForK.cs" />
     <Compile Include="Searching\SquareRoot.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
