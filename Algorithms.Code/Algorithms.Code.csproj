@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FibonacciSequence.cs" />
     <Compile Include="Primes.cs" />
     <Compile Include="ProjectEuler\AmicableNumbers.cs" />
     <Compile Include="ProjectEuler\ChampernownesConstant.cs" />
@@ -79,6 +80,11 @@
     <Compile Include="ProjectEuler\ThousandDigitFibonacciNumber.cs" />
     <Compile Include="ProjectEuler\TriangularPentagonalAndHexagonal.cs" />
     <Compile Include="ProjectEuler\TruncatablePrimes.cs" />
+    <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Strings\ReverseString.cs" />
     <Compile Include="TopCoder\AgeEncoding.cs" />
     <Compile Include="TopCoder\Apothecary.cs" />
     <Compile Include="TopCoder\ArcadeManao.cs" />
@@ -146,7 +152,9 @@
     <Compile Include="TopCoder\WidgetRepairs.cs" />
     <Compile Include="TopCoder\YahtzeeScore.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Searching\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
